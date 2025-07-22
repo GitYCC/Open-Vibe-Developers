@@ -16,6 +16,6 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 
 | 貢獻者 |   | 貢獻者 |   | 貢獻者 |   |
 |--------|------|--------|------|--------|------|
-| <a href="https://github.com/xxx"><img src="https://github.com/xxx.png" width="80" alt="@xxx"/></a> | 晉安  | <a href="https://github.com/xxx"><img src="https://github.com/xxx.png" width="80" alt="@xxx"/></a> | Kled  | <a href="https://github.com/GitYCC"><img src="https://github.com/GitYCC.png" width="80" alt="@GitYCC"/></a> | YC |
+| <a href="https://github.com/xxx"><img src="https://github.com/xxx.png" width="80" alt="@xxx"/></a> | 晉安  | <a href="https://github.com/Killelder"><img src="https://github.com/Killelder.png" width="80" alt="@Killelder"/></a> | Kled  | <a href="https://github.com/GitYCC"><img src="https://github.com/GitYCC.png" width="80" alt="@GitYCC"/></a> | YC |
 | <a href="https://github.com/rd8312"><img src="https://github.com/rd8312.png" width="80" alt="@rd8312"/></a> | Sam | <a href="https://github.com/52nlp"><img src="https://github.com/52nlp.png" width="80" alt="@52nlp"/></a> | Albert | <a href="https://github.com/smiletoeveryone"><img src="https://github.com/smiletoeveryone.png" width="80" alt="@smiletoeveryone"/></a> | Scott |
 | <a href="https://www.linkedin.com/in/netghost1010"><img src="https://media.licdn.com/dms/image/v2/D5603AQGvQbEhm5YdIg/profile-displayphoto-shrink_800_800/B56ZbCoHDPGoAc-/0/1747022017493?e=1756339200&v=beta&t=39ys6-QKlvlJRcYnghs-69mBnilleiPVtaKfjYZT4uY" width="80"/></a> | SSR |
