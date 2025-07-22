@@ -12,7 +12,10 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 
 ## 🗂️ 一、講者觀點整理
 
-#### 影片連結：https://www.youtube.com/watch?v=nnNAmlDlP24&t=1109s
+#### 影片連結：
+[![Open Vibe Developers: 社群目標介紹 與 第一次議題討論](https://img.youtube.com/vi/nnNAmlDlP24/0.jpg)](https://www.youtube.com/watch?v=nnNAmlDlP24)
+
+------
 
 ### 1.1 晉安：**以文件驅動 AI 協作，結構化拆解流程**
 
