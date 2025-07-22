@@ -1,4 +1,4 @@
-# Open-Vibe-Developers
+# Open Vibe Developers
 
 ## 社群宗旨
 
