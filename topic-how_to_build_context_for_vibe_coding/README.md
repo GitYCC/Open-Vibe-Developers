@@ -253,10 +253,6 @@ Class: Order
 | CoVe（Chain of Verification） | 透過鏈式驗證機制自動檢查 LLM 輸出是否符合規格，可結合 BDD 驗收、靜態分析等機制         |
 | RAG                         | Retrieval-Augmented Generation，結合語意檢索與 LLM 強化精準性     |
 
-當然可以，以下是補充於 Appendix 的一節，針對 **TDD、BDD、ATDD** 三種方法論進行系統性說明，並強調它們與文件撰寫與 AI 導入的關聯：
-
----
-
 ## G. 🧪 TDD / BDD / ATDD 三大開發方法論
 
 在結構化系統開發中，**測試先行**是實現可預測與高品質輸出的核心原則。以下是三種常見的測試驅動開發方法論，以及其適用場景與特色：
