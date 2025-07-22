@@ -12,6 +12,10 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 
 統合文件：[topic-how_to_build_context_for_vibe_coding](./topic-how_to_build_context_for_vibe_coding)
 
+## 歡迎加入 Discord 群組
+
+https://discord.gg/NP4GaPZmT9
+
 ## 👥 貢獻者 Contributors
 
 | 貢獻者 |   | 貢獻者 |   | 貢獻者 |   |
