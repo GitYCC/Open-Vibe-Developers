@@ -31,6 +31,7 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 * 三種開發模式比較：無文件對話式 / 詳細文件 / C4 分層文件。
 * 推薦使用 C4 模型（Context → Container → Component → Code）配合文件撰寫，提升 AI 理解力與團隊溝通效率。
 * 提出對應每層 C4 的文件撰寫指南（參見 Appendix A）。
+* 範例專案：https://github.com/GitYCC/gomoku-vibe-example
 
 ---
 
@@ -108,7 +109,7 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 | 教程      | [Context Engineering Guide](https://analyticsindiamag.com/ai-features/context-engineering-is-the-new-vibe-coding/) | 教學文章          |
 | 工具      | [Kiro IDE](https://kiro.dev/blog/introducing-kiro/)                                                                | AWS 推出 AI IDE |
 | YouTube | [Claude Code 用了 30 天](https://youtu.be/sOvi9Iu1Dq8)                                                                | 中文心得          |
-| GitHub  | [Context Engineering Intro](https://github.com/coleam00/context-engineering-intro)                                 | 技術實作          |
+| GitHub  | [Context Engineering Intro](https://github.com/GitYCC/context-engineering-intro-zh)                                 | 技術實作          |
 | 社群經驗    | [Serena MDC 設計分享](https://www.facebook.com/share/p/19RZVFpDzN/)                                                    | 模組化實務         |
 
 ---
