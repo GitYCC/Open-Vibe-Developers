@@ -109,7 +109,7 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 | 教程      | [Context Engineering Guide](https://analyticsindiamag.com/ai-features/context-engineering-is-the-new-vibe-coding/) | 教學文章          |
 | 工具      | [Kiro IDE](https://kiro.dev/blog/introducing-kiro/)                                                                | AWS 推出 AI IDE |
 | YouTube | [Claude Code 用了 30 天](https://youtu.be/sOvi9Iu1Dq8)                                                                | 中文心得          |
-| GitHub  | [Context Engineering Intro](https://github.com/GitYCC/context-engineering-intro-zh)                                 | 技術實作          |
+| GitHub  | [Context Engineering Intro](https://github.com/GitYCC/context-engineering-intro-zh)                                 | Context Engineering 技術實作 |
 | 社群經驗    | [Serena MDC 設計分享](https://www.facebook.com/share/p/19RZVFpDzN/)                                                    | 模組化實務         |
 
 ---
