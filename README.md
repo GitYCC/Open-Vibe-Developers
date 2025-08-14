@@ -12,6 +12,12 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 
 統合文件：[topic-how_to_build_context_for_vibe_coding](./topic-how_to_build_context_for_vibe_coding)
 
+## 7/29 | 議題：怎麼 Vibe 出合適的系統架構？
+
+在設計系統架構時，我們常會疑惑：我的架構究竟好或不好？是否可以請 AI 協助審視並提出改進建議？該如何具體操作？這個議題可廣義延伸至各領域：對於 Backend / Frontend / Infra 是系統架構設計；對於 UIUX 是 Wireframe 設計；對於資料工程師則是 Data Pipeline 的設計。
+
+統合文件：[topic-how_to_vibe_a_suitable_system_architecture](./topic-how_to_vibe_a_suitable_system_architecture)
+
 ## 歡迎加入 Discord 群組
 
 https://discord.gg/NP4GaPZmT9
