@@ -4,9 +4,145 @@
 
 ---
 
-### 🔗 共筆連結
+## 設計模式科普
 
-- 7/29 | 議題共筆：怎麼 Vibe 出合適的系統架構 — `https://hackmd.io/@tPW34DWtRkuPaVD5nh-OtA/By-MjGLDel`
+Claude 來為你科普這四個重要的設計模式：
+
+### Template Method（模板方法模式）
+
+**核心概念**：定義一個算法的骨架，將一些步驟延遲到子類中實現。
+
+**使用場景**：當你有一個固定的流程，但某些步驟需要根據不同情況來實現時。
+
+**簡單例子**：
+```java
+abstract class CookingProcess {
+    // 模板方法 - 定義烹飪流程
+    public final void cook() {
+        prepareIngredients();
+        cooking();
+        serve();
+    }
+    
+    protected abstract void prepareIngredients(); // 子類實現
+    protected abstract void cooking(); // 子類實現
+    
+    protected void serve() {
+        System.out.println("裝盤上菜");
+    }
+}
+
+class MakePasta extends CookingProcess {
+    protected void prepareIngredients() {
+        System.out.println("準備義大利麵和醬料");
+    }
+    
+    protected void cooking() {
+        System.out.println("煮麵配醬");
+    }
+}
+```
+
+### Strategy（策略模式）
+
+**核心概念**：定義一系列算法，把它們封裝起來，並且使它們可以相互替換。
+
+**使用場景**：當你有多種方式完成同一件事，需要在運行時選擇其中一種。
+
+**簡單例子**：
+```java
+interface PaymentStrategy {
+    void pay(int amount);
+}
+
+class CreditCardPayment implements PaymentStrategy {
+    public void pay(int amount) {
+        System.out.println("用信用卡支付 " + amount + " 元");
+    }
+}
+
+class MobilePayment implements PaymentStrategy {
+    public void pay(int amount) {
+        System.out.println("用手機支付 " + amount + " 元");
+    }
+}
+
+class ShoppingCart {
+    private PaymentStrategy paymentStrategy;
+    
+    public void setPaymentStrategy(PaymentStrategy strategy) {
+        this.paymentStrategy = strategy;
+    }
+    
+    public void checkout(int amount) {
+        paymentStrategy.pay(amount);
+    }
+}
+```
+
+### Factory（工廠模式）
+
+**核心概念**：創建對象時不暴露創建邏輯，通過一個共同的接口來指向新創建的對象。
+
+**使用場景**：當創建對象的邏輯比較複雜，或者需要根據不同條件創建不同類型的對象。
+
+**簡單例子**：
+```java
+interface Vehicle {
+    void start();
+}
+
+class Car implements Vehicle {
+    public void start() {
+        System.out.println("汽車啟動");
+    }
+}
+
+class Motorcycle implements Vehicle {
+    public void start() {
+        System.out.println("機車啟動");
+    }
+}
+
+class VehicleFactory {
+    public static Vehicle createVehicle(String type) {
+        if ("car".equals(type)) {
+            return new Car();
+        } else if ("motorcycle".equals(type)) {
+            return new Motorcycle();
+        }
+        return null;
+    }
+}
+```
+
+### Singleton（單例模式）
+
+**核心概念**：確保一個類只有一個實例，並提供全局訪問點。
+
+**使用場景**：當你需要控制實例數量，節約系統資源時，比如數據庫連接、日誌對象等。
+
+**簡單例子**：
+```java
+class DatabaseConnection {
+    private static DatabaseConnection instance;
+    
+    // 私有構造函數，防止外部創建實例
+    private DatabaseConnection() {}
+    
+    // 線程安全的獲取實例方法
+    public static synchronized DatabaseConnection getInstance() {
+        if (instance == null) {
+            instance = new DatabaseConnection();
+        }
+        return instance;
+    }
+    
+    public void connect() {
+        System.out.println("連接數據庫");
+    }
+}
+```
 
 ---
 
@@ -14,7 +150,7 @@
 
 ### 1.1 杜岳華：從設計模式走向系統架構（Pattern → Architecture）
 
-- 「**從設計模式到系統架構**」的路徑，示範如何在 **vibe coding** 情境下，把需求→設計模式→系統架構串起來；並主張 LLM 適合**原型組件**，而**架構治理**仍需資深工程師主導。
+- 「**從設計模式到系統架構**」的路徑，示範如何在 **vibe coding** 情境下，把需求→設計模式→系統架構串起來；並主張 LLM 適合**打造原型**，而**架構治理**仍需資深工程師主導。
 
 - **vibe coding 的實作樣式**：以「原型→加功能→重構」三段式驅動模型；對應 **State/Strategy/Template** 等模式。
 
