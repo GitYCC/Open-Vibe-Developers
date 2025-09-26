@@ -23,6 +23,12 @@ Vibe Coding 時常常遇到不穩定的狀況，改了一些功能卻讓其他�
 
 統合文件：[topic-how_to_make_ai_coding_work_well_in_projects](./topic-how_to_make_ai_coding_work_well_in_projects)
 
+## 9/9 | 議題：Vibe Coding 與測試
+
+在 Vibe Coding 中，常因修改新功能破壞舊功能或設計不佳而導致不穩定。測試不僅驗證功能，更是維持架構品質與團隊脈絡的核心。本次將探討測試在 Vibe Coding 的定位，並分享如何結合測試驅動開發（TDD）與生成式 AI 工具（Codex CLI、GPT-5、Claude Code、Opus 4.1），打造更穩定的開發流程。
+
+統合文件：[topic-topic-how_to_combine_vibe_coding_with_testing](./topic-how_to_combine_vibe_coding_with_testing)
+
 ## 歡迎加入 Discord 群組
 
 https://discord.gg/NP4GaPZmT9
